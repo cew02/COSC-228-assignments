@@ -10,3 +10,5 @@ p "Elephant"
 "Elephant" + "String"
 
 puts (23 % 4)
+
+# % is a modulo
