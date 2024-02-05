@@ -26,3 +26,12 @@ puts name + last_name
 
 age = 22 # after this point age will equal 22
 
+age_in_ten_years = age + 10
+
+age = age + 7 # 29
+puts age
+
+chameleon = "some random text"
+chameleon = 24
+chameleon = 3.14
+puts chameleon
