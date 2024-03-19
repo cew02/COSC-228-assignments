@@ -12,3 +12,20 @@ end
 
 print_five_times
 puts
+
+# Define a money_printer method that accepts a single numeric argument.
+# The number specifies how many times the mothod should print the
+# string "Money" insequence. Use the 'print' method in your solution.
+#
+# Examples
+# 
+# money_printer(3) should output MoneyMoneyMoney
+# money_printer(5) should output MoneyMoneyMoneyMoneyMoney
+# money_printer(0) should output nothing
+
+def money_printer(amount)
+    amount.times { print "Money" }
+end
+
+money_printer(#Your amount)
+puts
